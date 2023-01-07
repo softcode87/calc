@@ -59,6 +59,10 @@ button:hover{
 span{
     margin-left: 65px;
 }
+.screen{
+    font-size: 50px;
+    text-align: right;
+}
 body{
 align-content: center;
 margin-left: 600px;

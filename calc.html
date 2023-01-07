@@ -10,7 +10,6 @@
 <section>
     <h1>THE GREAT CALCULATOR</h1>
     <div class="screen">
-        <input type="numbers">
     </div>
     <section class="fullbody">
         <div class="one-row" style="display: flex;">
@@ -21,27 +20,27 @@
         </div>
         <section class="body">
             <div class="2nd-row" style="display: flex;">
-                <button>C</button>
+                <button onclick="handleClick('operator', 'C')">C</button>
                 <button>( )</button>
                 <button>&#37</button>
                 <button>&#xF7</button>
             </div>
             <div class="3rd-row" style="display: flex;">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+                <button onclick="handleClick('number', 7)">7</button>
+                <button onclick="handleClick('number', 8)">8</button>
+                <button onclick="handleClick('number', 9)">9</button>
                 <button>&#215</button>
             </div>
             <div class="4th-row" style="display: flex;">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
+                <button onclick="handleClick('number', 4)">4</button>
+                <button onclick="handleClick('number', 5)">5</button>
+                <button onclick="handleClick('number', 6)">6</button>
                 <button>&#8722</button>
             </div>
             <div class="5th-row" style="display: flex;">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+                <button onclick="handleClick('number', 1)">1</button>
+                <button onclick="handleClick('number', 2)">2</button>
+                <button onclick="handleClick('number', 3)">3</button>
                 <button>&#43</button>
             </div>
             <div class="6th-row" style="display: flex;">
@@ -57,5 +56,8 @@
         <p>@EmmanuelAshaba</p>
     </div>
 </section>
+<script src="js.js">
+    
+</script>
 </body>
 </html>
